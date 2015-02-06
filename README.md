@@ -1,6 +1,11 @@
 # FBuffer
 fluent buffer
 
+## Update
+
+*  fix some bug
+*  add step reader 
+
 ## Install
 
 ```js

@@ -1,6 +1,6 @@
 {
   "name": "fbuffer",
-  "version": "1.0.1",
+  "version": "1.0.3",
   "description": "fluent buffer",
   "main": "index.js",
   "directories": {
