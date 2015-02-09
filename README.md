@@ -4,7 +4,7 @@ fluent buffer
 ## Update
 
 *  fix some bug
-*  add step reader 
+*  add long type 
 
 ## Install
 
