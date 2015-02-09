@@ -3,6 +3,7 @@ fluent buffer
 
 ## Update
 
+*  add trimstring
 *  fix some bug
 *  add long type 
 

@@ -1,16 +1,8 @@
 var
 	fbuffer = require('../');
 
-var buffer = fbuffer()
-.byte(1)
-.sbyte(-1)
-.short(-256)
-.ushort(256)
-.pack();
+var buffer = new Buffer([ 0x82, 0x12, 0x46, 0x49, 0x15, 0x53, 0x95, 0x67 ]);
 
 var stepreader = fbuffer(buffer, 'step');
 
-console.log(buffer);
-
-console.log(stepreader.byte());
-console.log(stepreader.sbyte());
+console.log(stepreader.ulong());
