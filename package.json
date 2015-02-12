@@ -1,6 +1,6 @@
 {
   "name": "fbuffer",
-  "version": "1.0.5",
+  "version": "1.0.8",
   "description": "fluent buffer",
   "main": "index.js",
   "directories": {
@@ -12,6 +12,9 @@
   "repository": {
     "type": "git",
     "url": "https://github.com/epicINC/FBuffer.git"
+  },
+  "dependencies": {
+    "ref": "^1.0.0"
   },
   "keywords": [
     "buffer"

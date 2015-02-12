@@ -5,7 +5,7 @@ fluent buffer
 
 *  add trimstring
 *  fix some bug
-*  add long type 
+*  add long type(ref)
 
 ## Install
 
@@ -28,6 +28,14 @@ buffer reader:
 ```js
 var result = fbuffer(pack).byte().int().string().unpack();
 console.log(result);
+```
+
+buffer step reader:
+```js
+var reader = fbuffer(pack, 'step');
+console.log(reader.byte());
+console.log(reader.int());
+console.log(reader.string());
 ```
 
 ## License
